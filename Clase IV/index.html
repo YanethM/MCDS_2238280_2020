@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Creación de la barra de navegación -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="brand-logo">SENA</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Formulario</a></li>
+                    <li><a href="contact.html">Contactanos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Generación del formulario-->
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <!-- Input type text nameUser -->
+                    <div class="input-field col s8">
+                        <input type="text" id="user_name" class="validate">
+                        <label for="user_name">Nombre</label>
+                    </div>
+                    <!-- Input type number ageUser -->
+                    <div class="input-field col s4">
+                        <input type="number" id="age_name" class="validate">
+                        <label for="age_name">Edad</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Input type email emailUser -->
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email_user" class="validate">
+                        <label for="email_user">Correo electrónico</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">
+                            Texto informativo
+                        </span>
+                    </div>
+                </div>
+
+                <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i> button</a>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+</body>
+
+</html>
