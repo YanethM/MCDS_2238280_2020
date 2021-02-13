@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container section">
+        <nav class="grey darken-4">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">
+                    <img src="img/logo.png" class="circle" width="60" height="auto" alt=""></img>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html"><i class="material-icons ">search</i></a></li>
+                    <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+                    <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+                    <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Formulario -->
+        <form id="formCheckbox">
+            <div class="section">
+                <!-- Primer fila -->
+                <div class="row">
+                    <!-- 1 columna -->
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">face</i>
+                        <input type="text" name="user_name" id="user_name">
+                        <label for="user_name">Nombre</label>
+                    </div>
+                    <!-- 2 columna -->
+                    <div class="input-field col s6">
+                        <select name="products" id="products" class="browser-default">
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="1">Tennis</option>
+                            <option value="2">Busos deportivos</option>
+                            <option value="3">Black out</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Sefunda fila -->
+                <div class="row">
+                    <div class="col s2"><label class="cheackeable"><input value="1" type="checkbox" name="imagenesSeleccionadas[]" id="1"><img class="responsive-img circle" src="img/1.png" alt=""></label></div>
+                    <div class="col s2"><label class="cheackeable"><input value="2" type="checkbox" name="imagenesSeleccionadas[]" id="2"><img class="responsive-img circle" src="img/2.png" alt=""></label></div>
+                    <div class="col s2"><label class="cheackeable"><input value="3" type="checkbox" name="imagenesSeleccionadas[]" id="3"><img class="responsive-img circle" src="img/3.png" alt=""></label></div>
+                    <div class="col s2"><label class="cheackeable"><input value="4" type="checkbox" name="imagenesSeleccionadas[]" id="4"><img class="responsive-img circle" src="img/4.png" alt=""></label></div>
+                    <div class="col s2"><label class="cheackeable"><input value="5" type="checkbox" name="imagenesSeleccionadas[]" id="5"><img class="responsive-img circle" src="img/5.png" alt=""></label></div>
+                    <div class="col s2"><label class="cheackeable"><input value="6" type="checkbox" name="imagenesSeleccionadas[]" id="6"><img class="responsive-img circle" src="img/6.png" alt=""></label></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
